@@ -11,10 +11,10 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-OWNER_ID = int(getenv("OWNER_ID", 7044783841))
-OWNER_USERNAME = getenv("OWNER_USERNAME", "CertifiedCoder")
+OWNER_ID = int(getenv("OWNER_ID", 914909554))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "gitaristmusic11")
 BOT_USERNAME = getenv("BOT_USERNAME", "TuneviaBot")
-BOT_NAME = getenv("BOT_NAME", "˹ᴛᴜɴᴇ ᴠɪᴀ ʙᴏᴛ˼")
+BOT_NAME = getenv("BOT_NAME", "𝐆𝖎𝖙𝖆𝖗𝖎𝖘𝖙 𝕸𝖚𝖘𝖎𝖈🎸")
 ASSUSERNAME = getenv("ASSUSERNAME", "tuneviaassis")
 EVALOP = list(map(int, getenv("EVALOP", "6797202080").split()))
 
@@ -44,8 +44,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
 # ───── Support & Community ───── #
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CertifiedNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CertifiedDiscussion")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dertkonagi")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/gitaristmusic12")
 
 # ───── Assistant Auto Leave ───── #
 AUTO_LEAVING_ASSISTANT = False
