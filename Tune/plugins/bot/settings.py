@@ -33,7 +33,7 @@ from config import BANNED_USERS, OWNER_ID
 
 # ─── SETTINGS MESSAGE ──────────────────────────────────────────────
 
-@app.on_message(filters.command(["settings", "setting"]) & filters.group & ~BANNED_USERS)
+@app.on_message(filters.command(["settings", "ayarlar", "setting"]) & filters.group & ~BANNED_USERS)
 @language
 async def settings_mar(client, message: Message, _):
     buttons = setting_markup(_)
