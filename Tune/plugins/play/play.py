@@ -30,7 +30,7 @@ from Tune.utils.stream.stream import stream
 
 @app.on_message(
     filters.command([
-        "play", "vplay", "cplay", "cvplay",
+        "play", "oynat", "vplay", "cplay", "cvplay",  "voynat", "coynat",
         "playforce", "vplayforce", "cplayforce", "cvplayforce"
     ]) & filters.group & ~BANNED_USERS
 )
