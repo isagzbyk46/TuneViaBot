@@ -19,7 +19,7 @@ rel = {}
 
 # ── /reload, /refresh, /admincache ──
 @app.on_message(
-    filters.command(["admincache", "reload", "refresh"], prefixes=["/", "!", "%", ",", ".", "@", "#", ""])
+    filters.command(["admincache", "yenile", "reload", "refresh"], prefixes=["/", "!", "%", ",", ".", "@", "#", ""])
     & filters.group
     & ~BANNED_USERS
 )
